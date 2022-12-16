@@ -90,7 +90,10 @@ insert into Martian_Workers (FirstName, MiddleName, Lastname, MartianID, BirthDa
  values('Michael',	'B',	'Smithson',	333445555,	'2178-10-30',	'70 Galaxy Drive',	'M', 55000, 5, '2205-10-09', 'None'	);
 insert into Martian_Workers values('John',	'B',	'Smith',	123456789,	'2175-09-30',	'731 Spring Valley',	'M', 55000	,333445555	,5	,'2205-10-09',	'None');
 
-select * From Martian_Workers;
+
+show tables;
+show columns from Mission;
+
 
 
 
