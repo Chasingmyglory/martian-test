@@ -5,7 +5,7 @@ import pymysql  # or use psycopg2 for PostgreSQL
 # Initialize Faker
 fake = Faker()
 
-# Database connection (modify as per your database)
+# Database connection 
 conn = pymysql.connect(host='XXXXXXX', user='XXXXXXXX', password='XXXXXXXXXXX', db='Martian_Database')
 cursor = conn.cursor()
 
